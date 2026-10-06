@@ -1,0 +1,2 @@
+{"workspace_id":"north","conversation_id":"conv-n-999","external_id":"ok-1","revision":1,"sender_id":"cust-irina","sender_role":"customer","sent_at":"2026-09-15T10:00:00+03:00","observed_at":"2026-09-15T10:01:00+03:00","text":"Корректная строка.","reply_to_external_id":null,"source":"import"}
+{"workspace_id":"north","conversation_id":"conv-n-999","external_id":"broken"

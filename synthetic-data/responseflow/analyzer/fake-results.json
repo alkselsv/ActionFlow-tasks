@@ -1,0 +1,38 @@
+{
+  "analysis_time": "2026-09-15T15:00:00+03:00",
+  "results": [
+    {
+      "workspace_id": "north",
+      "conversation_id": "conv-n-002",
+      "window_checksum": "fixture-conv-n-002-v1",
+      "items": [
+        {"type":"complaint","confidence":0.96,"summary":"Клиент повторно сообщает об ошибке и прямо недоволен качеством.","recommended_action":"Подтвердить претензию и сообщить проверяемый срок окончательного исправления.","evidence_message_ids":["n-002-002","n-002-003","n-002-003"],"subject_key":"complaint:filter-reset"},
+        {"type":"complaint","confidence":0.91,"summary":"Ссылка сделана на отсутствующее сообщение и должна быть отклонена.","recommended_action":"Проверить исходную переписку перед созданием карточки ситуации.","evidence_message_ids":["missing-message"],"subject_key":"complaint:broken-reference"}
+      ]
+    },
+    {
+      "workspace_id": "north",
+      "conversation_id": "conv-n-005",
+      "window_checksum": "fixture-conv-n-005-v1",
+      "items": [
+        {"type":"document_request","confidence":0.99,"summary":"Клиент просит подписанный УПД за август для бухгалтерии.","recommended_action":"Получить УПД у бухгалтерии и сообщить клиенту срок отправки.","evidence_message_ids":["n-005-001","n-005-003"],"subject_key":"document:upd:2026-08"}
+      ]
+    },
+    {
+      "workspace_id": "north",
+      "conversation_id": "conv-n-007",
+      "window_checksum": "fixture-conv-n-007-v1",
+      "items": [
+        {"type":"manager_attention","confidence":0.98,"summary":"Клиент угрожает остановить работы и пересмотреть договор из-за сбоя обмена.","recommended_action":"Немедленно подключить руководителя и согласовать с клиентом план восстановления.","evidence_message_ids":["n-007-001","n-007-003"],"subject_key":"manager:integration-stoppage"}
+      ]
+    },
+    {
+      "workspace_id": "north",
+      "conversation_id": "conv-n-008",
+      "window_checksum": "fixture-conv-n-008-v1",
+      "items": [
+        {"type":"complaint","confidence":0.42,"summary":"Клиент считает цвет кнопки непривычным, но работа не заблокирована.","recommended_action":"Учесть наблюдение при следующем просмотре оформления.","evidence_message_ids":["n-008-001","n-008-003"],"subject_key":"complaint:button-color"}
+      ]
+    }
+  ]
+}

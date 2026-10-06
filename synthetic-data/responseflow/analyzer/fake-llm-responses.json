@@ -1,0 +1,20 @@
+{
+  "valid": {
+    "provider": "fake",
+    "model": "fixture-model",
+    "raw_arguments": "{\"situations\":[{\"type\":\"complaint\",\"confidence\":0.96,\"summary\":\"Клиент повторно сообщает об ошибке и недоволен качеством.\",\"recommended_action\":\"Подтвердить претензию и сообщить срок окончательного исправления.\",\"evidence_message_ids\":[\"n-002-002\",\"n-002-003\"],\"subject_key\":\"complaint:filter-reset\"}]}",
+    "usage": {"input_tokens": 420, "output_tokens": 95}
+  },
+  "malformed_json": {
+    "provider": "fake",
+    "model": "fixture-model",
+    "raw_arguments": "{\"situations\":[",
+    "usage": {"input_tokens": 420, "output_tokens": 4}
+  },
+  "unknown_evidence": {
+    "provider": "fake",
+    "model": "fixture-model",
+    "raw_arguments": "{\"situations\":[{\"type\":\"complaint\",\"confidence\":0.91,\"summary\":\"Модель указала отсутствующее сообщение как основание ситуации.\",\"recommended_action\":\"Отклонить результат и проверить исходное окно переписки.\",\"evidence_message_ids\":[\"missing-message\"],\"subject_key\":\"complaint:broken\"}]}",
+    "usage": {"input_tokens": 420, "output_tokens": 70}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "base_scores": {
+    "unanswered": 35,
+    "commitment": 30,
+    "delay": 55,
+    "complaint": 50,
+    "document_request": 30,
+    "manager_attention": 70
+  },
+  "bonuses": {
+    "key_client": 15,
+    "overdue_more_than_day": 15,
+    "work_stoppage_threat": 25,
+    "repeated_detection": 10
+  },
+  "levels": {"low_min": 0, "medium_min": 30, "high_min": 50, "critical_min": 80},
+  "action_due_minutes": {"low": 480, "medium": 240, "high": 60, "critical": 15},
+  "actions": {
+    "unanswered": {"role":"account_manager","text":"Ответить клиенту по существу и указать следующий срок."},
+    "commitment": {"role":"account_manager","text":"Проверить выполнение обещания и заранее подтвердить клиенту срок."},
+    "delay": {"role":"account_manager","text":"Назначить ответственного, сообщить клиенту причину задержки и новый срок."},
+    "complaint": {"role":"account_manager","text":"Подтвердить получение претензии и согласовать план исправления."},
+    "document_request": {"role":"document_manager","text":"Запросить документ у бухгалтерии и сообщить клиенту срок отправки."},
+    "manager_attention": {"role":"account_manager_lead","text":"Связаться с клиентом, согласовать план восстановления и контролировать исполнение."}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "default": {"precision": 0.75, "recall": 0.75, "evidence_accuracy": 0.90},
+  "by_type": {
+    "delay": {"precision": 1.0, "recall": 1.0, "evidence_accuracy": 1.0},
+    "complaint": {"precision": 0.75, "recall": 0.75, "evidence_accuracy": 1.0},
+    "document_request": {"precision": 1.0, "recall": 1.0, "evidence_accuracy": 1.0},
+    "manager_attention": {"precision": 1.0, "recall": 1.0, "evidence_accuracy": 1.0},
+    "unanswered": {"precision": 1.0, "recall": 1.0, "evidence_accuracy": 1.0}
+  }
+}

@@ -1,0 +1,8 @@
+{"case_id":"case-001-delay","findings":[{"type":"delay","subject_key":"commitment:conv-n-001:n-001-006","evidence_message_ids":["n-001-006"]},{"type":"unanswered","subject_key":"unanswered:conv-n-001:n-001-012","evidence_message_ids":["n-001-012"]}]}
+{"case_id":"case-002-complaint","findings":[{"type":"complaint","subject_key":"complaint:filter-reset","evidence_message_ids":["n-002-002","n-002-003"]}]}
+{"case_id":"case-003-commitment","findings":[{"type":"commitment","subject_key":"commitment:conv-n-003:n-003-002","evidence_message_ids":["n-003-002"]}]}
+{"case_id":"case-004-completed","findings":[]}
+{"case_id":"case-005-document","findings":[{"type":"document_request","subject_key":"document:upd:2026-08","evidence_message_ids":["n-005-001","n-005-003"]}]}
+{"case_id":"case-006-inside-sla","findings":[]}
+{"case_id":"case-007-manager","findings":[{"type":"manager_attention","subject_key":"manager:integration-stoppage","evidence_message_ids":["n-007-001","n-007-003"]}]}
+{"case_id":"case-008-neutral","findings":[]}

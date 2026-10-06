@@ -1,0 +1,123 @@
+{
+  "analysis_time": "2026-09-15T15:00:00+03:00",
+  "findings": [
+    {
+      "finding_id": "10000000-0000-4000-8000-000000000001",
+      "workspace_id": "north",
+      "version": 1,
+      "conversation_id": "conv-n-007",
+      "project_id": "aurora",
+      "organization_name": "Северный ветер",
+      "project_name": "Аврора",
+      "type": "manager_attention",
+      "status": "open",
+      "priority": "critical",
+      "score": 100,
+      "summary": "Клиент угрожает остановить работы и пересмотреть договор.",
+      "priority_reasons": ["Ключевой клиент.", "Есть угроза остановки работ."],
+      "recommended_action": "Немедленно подключить руководителя и согласовать план восстановления.",
+      "confidence": 0.98,
+      "detector_version": "semantic-fixture-1",
+      "evidence": [
+        {"message_external_id":"n-007-001","sent_at":"2026-09-15T08:55:00+03:00","author":"Ирина Белова","text":"Интеграция снова не передаёт заказы."},
+        {"message_external_id":"n-007-003","sent_at":"2026-09-15T11:30:00+03:00","author":"Ирина Белова","text":"Если сегодня не восстановите обмен, мы остановим работы и потребуем пересмотреть договор."}
+      ],
+      "history": []
+    },
+    {
+      "finding_id": "10000000-0000-4000-8000-000000000002",
+      "workspace_id": "north",
+      "version": 1,
+      "conversation_id": "conv-n-001",
+      "project_id": "borey",
+      "organization_name": "Северный ветер",
+      "project_name": "Личный кабинет",
+      "type": "delay",
+      "status": "open",
+      "priority": "critical",
+      "score": 85,
+      "summary": "Исправленная смета не отправлена к обещанному сроку.",
+      "priority_reasons": ["Базовая оценка просрочки.", "Ключевой клиент.", "Просрочка больше суток."],
+      "recommended_action": "Назначить ответственного и сообщить клиенту новый срок.",
+      "confidence": 1.0,
+      "detector_version": "commitment-rules-1",
+      "evidence": [
+        {"message_external_id":"n-001-006","sent_at":"2026-09-14T12:12:00+03:00","author":"Алексей Смирнов","text":"Исправленную смету пришлю сегодня до 18:00."},
+        {"message_external_id":"n-001-010","sent_at":"2026-09-15T10:16:00+03:00","author":"Ирина Белова","text":"Смету пока не получили."},
+        {"message_external_id":"n-001-012","sent_at":"2026-09-15T12:30:00+03:00","author":"Ирина Белова","text":"Когда сможете прислать исправленный файл? Ждём ответ."}
+      ],
+      "history": []
+    },
+    {
+      "finding_id": "10000000-0000-4000-8000-000000000003",
+      "workspace_id": "north",
+      "version": 2,
+      "conversation_id": "conv-n-002",
+      "project_id": "orbita",
+      "organization_name": "Орбита",
+      "project_name": "Витрина каталога",
+      "type": "complaint",
+      "status": "acknowledged",
+      "priority": "high",
+      "score": 50,
+      "summary": "Клиент повторно сообщает об ошибке и прямо недоволен качеством.",
+      "priority_reasons": ["Базовая оценка претензии."],
+      "recommended_action": "Подтвердить претензию и сообщить срок исправления.",
+      "confidence": 0.96,
+      "detector_version": "semantic-fixture-1",
+      "evidence": [
+        {"message_external_id":"n-002-002","sent_at":"2026-09-15T09:12:00+03:00","author":"Павел Горин","text":"Мы уже третий раз сообщаем об этой ошибке."},
+        {"message_external_id":"n-002-003","sent_at":"2026-09-15T09:13:00+03:00","author":"Павел Горин","text":"Такое качество нас не устраивает. Когда будет окончательное исправление?"}
+      ],
+      "history": [
+        {"action":"acknowledge","author":"manager-olga","at":"2026-09-15T10:00:00+03:00","comment":"Претензия принята в работу.","from_status":"open","to_status":"acknowledged","version":2}
+      ]
+    },
+    {
+      "finding_id": "10000000-0000-4000-8000-000000000004",
+      "workspace_id": "north",
+      "version": 1,
+      "conversation_id": "conv-n-005",
+      "project_id": "fin-docs",
+      "organization_name": "Северный ветер",
+      "project_name": "Закрывающие документы",
+      "type": "document_request",
+      "status": "open",
+      "priority": "medium",
+      "score": 45,
+      "summary": "Клиент просит подписанный УПД за август для бухгалтерии.",
+      "priority_reasons": ["Базовая оценка запроса документа.", "Ключевой клиент."],
+      "recommended_action": "Получить УПД и сообщить срок отправки.",
+      "confidence": 0.99,
+      "detector_version": "semantic-fixture-1",
+      "evidence": [
+        {"message_external_id":"n-005-001","sent_at":"2026-09-15T11:00:00+03:00","author":"Ирина Белова","text":"Пришлите, пожалуйста, УПД за август с подписью."},
+        {"message_external_id":"n-005-003","sent_at":"2026-09-15T12:10:00+03:00","author":"Ирина Белова","text":"Документ нужен сегодня для бухгалтерии."}
+      ],
+      "history": []
+    },
+    {
+      "finding_id": "20000000-0000-4000-8000-000000000001",
+      "workspace_id": "south",
+      "version": 1,
+      "conversation_id": "conv-s-001",
+      "project_id": "south-demo",
+      "organization_name": "Южный берег",
+      "project_name": "Демо",
+      "type": "unanswered",
+      "status": "resolved",
+      "priority": "low",
+      "score": 20,
+      "summary": "Учебная закрытая карточка другой рабочей области.",
+      "priority_reasons": ["Учебная запись."],
+      "recommended_action": "Действие не требуется.",
+      "confidence": 1.0,
+      "detector_version": "seed-1",
+      "evidence": [
+        {"message_external_id":"s-001-001","sent_at":"2026-09-15T09:00:00+03:00","author":"Елена Южина","text":"Когда будет готова демонстрация?"}
+      ],
+      "history": []
+    }
+  ],
+  "rejection_reason_codes": ["not_actionable", "wrong_type", "already_resolved", "insufficient_evidence"]
+}

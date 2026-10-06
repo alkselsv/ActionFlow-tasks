@@ -1,0 +1,11 @@
+[
+  {"workspace_id":"north","project_id":"borey","conversation_id":"conv-n-001","organization_id":"org-sever","organization_name":"Северный ветер","project_name":"Личный кабинет","service_tier":"key","response_sla_minutes":60,"responsible_role":"account_manager"},
+  {"workspace_id":"north","project_id":"orbita","conversation_id":"conv-n-002","organization_id":"org-orbita","organization_name":"Орбита","project_name":"Витрина каталога","service_tier":"standard","response_sla_minutes":120,"responsible_role":"account_manager"},
+  {"workspace_id":"north","project_id":"mayak","conversation_id":"conv-n-003","organization_id":"org-mayak","organization_name":"Маяк","project_name":"Отчётность","service_tier":"standard","response_sla_minutes":120,"responsible_role":"account_manager"},
+  {"workspace_id":"north","project_id":"volna","conversation_id":"conv-n-004","organization_id":"org-orbita","organization_name":"Орбита","project_name":"Волна","service_tier":"standard","response_sla_minutes":120,"responsible_role":"account_manager"},
+  {"workspace_id":"north","project_id":"fin-docs","conversation_id":"conv-n-005","organization_id":"org-sever","organization_name":"Северный ветер","project_name":"Закрывающие документы","service_tier":"key","response_sla_minutes":60,"responsible_role":"document_manager"},
+  {"workspace_id":"north","project_id":"start","conversation_id":"conv-n-006","organization_id":"org-mayak","organization_name":"Маяк","project_name":"Запуск","service_tier":"standard","response_sla_minutes":120,"responsible_role":"account_manager"},
+  {"workspace_id":"north","project_id":"aurora","conversation_id":"conv-n-007","organization_id":"org-sever","organization_name":"Северный ветер","project_name":"Аврора","service_tier":"key","response_sla_minutes":60,"responsible_role":"account_manager"},
+  {"workspace_id":"north","project_id":"quiet","conversation_id":"conv-n-008","organization_id":"org-orbita","organization_name":"Орбита","project_name":"Поддержка","service_tier":"standard","response_sla_minutes":120,"responsible_role":"account_manager"},
+  {"workspace_id":"south","project_id":"south-demo","conversation_id":"conv-s-001","organization_id":"org-yug","organization_name":"Южный берег","project_name":"Демо","service_tier":"standard","response_sla_minutes":120,"responsible_role":"account_manager"}
+]

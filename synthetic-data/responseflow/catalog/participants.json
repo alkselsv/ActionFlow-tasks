@@ -1,0 +1,10 @@
+[
+  {"workspace_id":"north","participant_id":"cust-irina","display_name":"Ирина Белова","role":"customer","organization_id":"org-sever"},
+  {"workspace_id":"north","participant_id":"cust-pavel","display_name":"Павел Горин","role":"customer","organization_id":"org-orbita"},
+  {"workspace_id":"north","participant_id":"cust-anna","display_name":"Анна Левина","role":"customer","organization_id":"org-mayak"},
+  {"workspace_id":"north","participant_id":"emp-alexey","display_name":"Алексей Смирнов","role":"employee","organization_id":null},
+  {"workspace_id":"north","participant_id":"emp-maria","display_name":"Мария Волкова","role":"employee","organization_id":null},
+  {"workspace_id":"north","participant_id":"system-bot","display_name":"Служебный робот","role":"system","organization_id":null},
+  {"workspace_id":"south","participant_id":"cust-south","display_name":"Елена Южина","role":"customer","organization_id":"org-yug"},
+  {"workspace_id":"south","participant_id":"emp-south","display_name":"Сергей Полин","role":"employee","organization_id":null}
+]

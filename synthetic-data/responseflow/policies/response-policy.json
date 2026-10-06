@@ -1,0 +1,8 @@
+{
+  "timezone": "Europe/Moscow",
+  "working_days": [1, 2, 3, 4, 5],
+  "working_day_start": "09:00",
+  "working_day_end": "18:00",
+  "default_sla_minutes": 120,
+  "tiers": {"key": 60, "standard": 120}
+}
